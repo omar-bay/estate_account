@@ -16,7 +16,7 @@ class EstateProperty(models.Model):
                         (0, 0, {
                                 "name": prop.name,
                                 "quantity": 1.0,
-                                "price_unit": prop.selling_price * 6.0 / 100.0,
+                                "price_unit": prop.selling_price,
                         }, ), (0,0,
                             {
                                 "name": "Administrative fees",
